@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #808080;
+    margin-top: 8px;
+}
+
+.author {
+    text-align: left;
+    flex: 1;
+}
+
+.date {
+    text-align: center;
+    flex: 1;
+}
+
+.time {
+    text-align: right;
+    flex: 1;
+}

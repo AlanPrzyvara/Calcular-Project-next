@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    background: #ffffff;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 70%;
+    flex-grow: 1;
+}
+
+.title {
+    font-family: "Lexend", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #494d4b;
+}
+
+.date {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080;
+    max-width: 100%;
+    flex-basis: 150px;
+}
